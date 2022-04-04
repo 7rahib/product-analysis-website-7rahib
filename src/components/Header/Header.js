@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
-    const linkTailwindClasses = 'mr-2 rounded-lg px-5 py-2 shadow bg-slate-500 font-mono text-white hover:bg-white hover:text-black hover:shadow-lg'
+    const linkTailwindClasses = 'mr-2 rounded-lg px-5 py-2 shadow bg-slate-500 font-mono text-white hover:bg-white hover:text-black hover:shadow-lg hover:font-bold'
     return (
         <div className='bg-slate-300 p-7 flex flex-col justify-center items-center shadow-lg'>
             <div>
