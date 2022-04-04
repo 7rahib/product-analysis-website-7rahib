@@ -20,6 +20,9 @@ const Home = () => {
                 </div>
             </div>
             <div>
+                <h3 className='text-center font-mono text-3xl my-3'>Customer's opinion</h3>
+            </div>
+            <div>
                 {
                     reviews.slice(0, 3).map(review => <ReviewCard
                         key={review.id}
@@ -28,7 +31,7 @@ const Home = () => {
                 }
             </div>
             <div className='flex justify-center my-5'>
-                <button onClick={() => navigate('/reviews')} className='mr-2 rounded-lg px-5 py-2 bg-slate-500 font-mono text-white hover:bg-slate-400 hover:text-black hover:shadow-lg hover:font-bold hover:underline'>See All</button>
+                <button onClick={() => navigate('/reviews')} className='mr-2 rounded-lg px-5 py-2 bg-slate-500 font-mono text-white hover:bg-slate-600 hover:text-white hover:shadow-lg hover:font-bold hover:underline'>See All</button>
             </div>
         </div>
     );
