@@ -5,6 +5,7 @@ import Home from './components/Home/Home';
 import Reviews from './components/Reviews/Reviews'
 import DashBoard from './components/DashBoard/DashBoard'
 import Blogs from './components/Blogs/Blogs'
+import Error from './components/Error/Error';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path='/reviews' element={<Reviews></Reviews>}></Route>
         <Route path='/dashboard' element={<DashBoard></DashBoard>}></Route>
         <Route path='/blogs' element={<Blogs></Blogs>}></Route>
+        <Route path='*' element={<Error></Error>}></Route>
       </Routes>
     </div>
   );
