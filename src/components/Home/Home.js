@@ -1,9 +1,11 @@
+import { useNavigate } from 'react-router-dom';
 import useReviews from '../../hooks/useReviews';
 import product from '../../images/product.png'
 import ReviewCard from '../ReviewCard/ReviewCard';
 
 const Home = () => {
     const [reviews, setreviews] = useReviews();
+    const navigate = useNavigate();
 
     return (
         <div>
@@ -25,8 +27,8 @@ const Home = () => {
                     ></ReviewCard>)
                 }
             </div>
-            <div>
-                <button className='mr-2 rounded-lg px-5 py-2 bg-slate-500 font-mono text-white hover:bg-white hover:text-black hover:shadow-lg hover:font-bold'>See All</button>
+            <div className='flex justify-center my-5'>
+                <button onClick={() => navigate('/reviews')} className='mr-2 rounded-lg px-5 py-2 bg-slate-500 font-mono text-white hover:bg-slate-400 hover:text-black hover:shadow-lg hover:font-bold hover:underline'>See All</button>
             </div>
         </div>
     );
