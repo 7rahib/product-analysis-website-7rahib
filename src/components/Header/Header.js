@@ -6,9 +6,6 @@ const Header = () => {
     return (
         <div className='bg-slate-200 p-7 flex flex-col justify-center items-center shadow-lg'>
             <div>
-                <h1 className='text-4xl mb-5 font-bold font-mono hover:underline'>Product Analysis</h1>
-            </div>
-            <div>
                 <ul>
                     <Link className={linkTailwindClasses} to="/">HOME</Link>
                     <Link className={linkTailwindClasses} to="/reviews">REVIEWS</Link>
