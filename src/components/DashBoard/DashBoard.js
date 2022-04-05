@@ -3,12 +3,12 @@ import { Bar, BarChart, CartesianGrid, Line, LineChart, Tooltip, XAxis, YAxis } 
 
 const DashBoard = () => {
 
-    const [data, setdata] = useState([]);
+    const [data, setData] = useState([]);
 
     useEffect(() => {
         fetch('data.json')
             .then(res => res.json())
-            .then(data => setdata(data))
+            .then(data => setData(data))
     }, [])
 
     return (
@@ -36,6 +36,7 @@ const DashBoard = () => {
                         <Bar dataKey="revenue" fill="#8884d8" />
                         <XAxis dataKey="month" />
                         <YAxis />
+                        <Tooltip />
                     </BarChart>
                 </div>
             </div>

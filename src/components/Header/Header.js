@@ -10,10 +10,10 @@ const Header = () => {
             </div>
             <div>
                 <ul>
-                    <Link className={linkTailwindClasses} to="/">Home</Link>
-                    <Link className={linkTailwindClasses} to="/reviews">Reviews</Link>
-                    <Link className={linkTailwindClasses} to="/dashboard">Dashboard</Link>
-                    <Link className={linkTailwindClasses} to="/blogs">Blogs</Link>
+                    <Link className={linkTailwindClasses} to="/">HOME</Link>
+                    <Link className={linkTailwindClasses} to="/reviews">REVIEWS</Link>
+                    <Link className={linkTailwindClasses} to="/dashboard">DASHBOARD</Link>
+                    <Link className={linkTailwindClasses} to="/blogs">BLOGS</Link>
                 </ul>
             </div>
         </div>

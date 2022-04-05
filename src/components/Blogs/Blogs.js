@@ -21,9 +21,9 @@ const Blogs = () => {
                     <p class="text-gray-700 font-bold">Inline</p>
                     <p class="text-gray-700">Inline displays the element inline or on the same line. In other words, inline elements do NOT start on a new line and only takes up as much width as its content. So, if you try to set any width and height, it will have no effects.</p>
                     <p class="text-gray-700 font-bold">Block</p>
-                    <p class="text-gray-700">Block starts on a NEW line and takes up the full width available. So that means, block elements will occupy the entire width of its parent element.</p>
+                    <p class="text-gray-700">Block starts on a new line and takes up the full width available. So that means, block elements will occupy the entire width of its parent element.</p>
                     <p class="text-gray-700 font-bold">Inline-block</p>
-                    <p class="text-gray-700">Displays an element as an inline-level block container. You CAN set height and width values. Its essentially the same thing as inline, except that you can set height and width values.</p>
+                    <p class="text-gray-700">Displays an element as an inline-level block container. You can set height and width values. Its essentially the same thing as inline, except that you can set height and width values.</p>
                 </div>
             </div>
         </div>

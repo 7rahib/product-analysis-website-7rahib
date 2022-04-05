@@ -4,7 +4,7 @@ import product from '../../images/product.png'
 import ReviewCard from '../ReviewCard/ReviewCard';
 
 const Home = () => {
-    const [reviews, setreviews] = useReviews();
+    const [reviews, setReviews] = useReviews();
     const navigate = useNavigate();
 
     return (
@@ -20,7 +20,7 @@ const Home = () => {
                 </div>
             </div>
             <div>
-                <h3 className='text-center font-mono text-3xl my-3'>Customer's opinion</h3>
+                <h3 className='text-center font-mono text-3xl my-3'>Customer's opinion(3)</h3>
             </div>
             <div>
                 {
