@@ -1,6 +1,8 @@
 # A Product Analysis Website by Naimur Rashid Rahib
 
-[Live Site Link](https://github.com/facebook/create-react-app)
+[Live Site Link](https://product-analysis-website-7rahib.netlify.app/)
+
+https://product-analysis-website-7rahib.netlify.app/
 
 * I have used React Router library for navigation in this project.
 * I have used Recharts library to show charts.
